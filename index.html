@@ -9,16 +9,29 @@
     <title>Library</title>
 </head>
 <body>
-    <label>Book</label><br>
-    <input type="text" id="book"><br>
-    <label>Author</label><br>
-    <input type="text" id="author"><br>
-    <select id="select">
-        <option>Read</option>
-        <option>Not read</option>
-    </select>
-    <button type="button" id="submit">Submit</button>
-    <table class="tablica"></table>
+    <form>
+        <div class="formBox">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Title"/>
+        </div>
+        <div class="formBox">
+            <label for="yr">Author</label>
+            <input type="text" id="author" placeholder="Author"/>
+        </div>
+        <div>
+            <select id="select">
+                <option>Read</option>
+                <option>Not read</option>
+            </select>
+        </div>
+        <div class="formBox">
+            <button id="btn">Click to Add</button>
+        </div>
+        <div id="msg">
+            
+        </div>
+    </form>
+    
     
 </body>
 </html>
